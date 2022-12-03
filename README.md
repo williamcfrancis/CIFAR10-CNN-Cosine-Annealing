@@ -3,7 +3,7 @@ Cosine Annealing is a type of learning rate schedule that has the effect of star
 ![image](https://user-images.githubusercontent.com/38180831/205463491-2813732d-7c82-47e5-a807-fa8a5add012c.png)
 Here t is the number of weight updates of the network. This is called the cosine learning rate schedule with a warmup. The first phase until t ≤ T0 is called the warmup phase and the second phase where the learning rate decreases along a cosine is called the annealing phase.
 
-### Dataset
+## Dataset
 The dataset used here is the [CIFAR-10 dataset](https://www.cs.toronto.edu/~kriz/cifar.html) which consists of 60000 32x32 colour images in 10 classes, with 6000 images per class. There are 50000 training images and 10000 test images. 
 
 ## Loss curves
